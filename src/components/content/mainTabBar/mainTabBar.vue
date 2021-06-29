@@ -2,10 +2,10 @@
   <tab-bar>
     <tab-bar-item path="/home">
       <template v-slot:item-icon>
-        <img src="@/assets/components/img/tabbar/index.svg" alt="" />
+        <img src="@/assets/img/tabbar/index.svg" alt="" />
       </template>
       <template v-slot:item-icon-active>
-        <img src="@/assets/components/img/tabbar/index-active.svg" alt="" />
+        <img src="@/assets/img/tabbar/index-active.svg" alt="" />
       </template>
       <template v-slot:item-text>
         <div>首页</div>
@@ -13,10 +13,10 @@
     </tab-bar-item>
     <tab-bar-item path="/lei">
       <template v-slot:item-icon>
-        <img src="@/assets/components/img/tabbar/lei.svg" alt="" />
+        <img src="@/assets/img/tabbar/lei.svg" alt="" />
       </template>
       <template v-slot:item-icon-active>
-        <img src="@/assets/components/img/tabbar/lei-active.svg" alt="" />
+        <img src="@/assets/img/tabbar/lei-active.svg" alt="" />
       </template>
       <template v-slot:item-text>
         <div>分类</div>
@@ -24,10 +24,10 @@
     </tab-bar-item>
     <tab-bar-item path="/shop">
       <template v-slot:item-icon>
-        <img src="@/assets/components/img/tabbar/shop.svg" alt="" />
+        <img src="@/assets/img/tabbar/shop.svg" alt="" />
       </template>
       <template v-slot:item-icon-active>
-        <img src="@/assets/components/img/tabbar/shop-active.svg" alt="" />
+        <img src="@/assets/img/tabbar/shop-active.svg" alt="" />
       </template>
       <template v-slot:item-text>
         <div>购物车</div>
@@ -35,10 +35,10 @@
     </tab-bar-item>
     <tab-bar-item path="/me">
       <template v-slot:item-icon>
-        <img src="@/assets/components/img/tabbar/me.svg" alt="" />
+        <img src="@/assets/img/tabbar/me.svg" alt="" />
       </template>
       <template v-slot:item-icon-active>
-        <img src="@/assets/components/img/tabbar/me-active.svg" alt="" />
+        <img src="@/assets/img/tabbar/me-active.svg" alt="" />
       </template>
       <template v-slot:item-text>
         <div>我的</div>
@@ -48,8 +48,8 @@
 </template>
 
 <script>
-import TabBar from "@/assets/components/common/tabbar/TabBar.vue";
-import TabBarItem from "@/assets/components/common/tabbar/TabBarItem.vue";
+import TabBar from "@/components/common/tabbar/TabBar.vue";
+import TabBarItem from "@/components/common/tabbar/TabBarItem.vue";
 export default {
   components: {
     TabBar,
@@ -59,5 +59,5 @@ export default {
 </script>
 
 <style>
-@import url('~@/assets/components/css/base.css');
+@import url("~@/assets/css/base.css");
 </style>
