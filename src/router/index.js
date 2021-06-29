@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/home/Home.vue'
-import Lei from '../views/lei/Lei.vue'
-import Shop from '../views/shop/Shop.vue'
-import Me from '../views/me/Me.vue'
+import Home from '@/views/home/Home.vue'
+import Lei from '@/views/lei/Lei.vue'
+import Shop from '@/views/shop/Shop.vue'
+import Me from '@/views/me/Me.vue'
 
 const routes = [
   {
