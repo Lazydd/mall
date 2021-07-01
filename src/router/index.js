@@ -8,6 +8,7 @@ const Home = () => import('../views/home/Home.vue')
 const Lei = () => import('../views/lei/Lei.vue')
 const Shop = () => import('../views/shop/Shop.vue')
 const Me = () => import('../views/me/Me.vue')
+const Detail = () => import('../views/detail/Detail.vue')
 const routes = [
   {
     path: '',
@@ -24,7 +25,10 @@ const routes = [
   }, {
     path: '/me',
     component: Me
-  },
+  }, {
+    path: '/detail/:id',
+    component: Detail
+  }
 
 ]
 
